@@ -21,7 +21,7 @@ Parts :
 
   5. Odds and ends such as a wooden board, wires, doodads.
 
-The input 
+The input :
   
   1. Initially, I hooked up the 0,1 - RX/TX lines of the Arduinos to a Raspberry Pi 3 to facilitate a serial connection through which, live time from the Pi is fed
     to the boards whose digits correspond with those displayed.
