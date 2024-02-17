@@ -1,6 +1,6 @@
 /*
 This is the script that is loaded on the 2nd arduino that drives the last two digits.
-It takes in seial input from 0,1 - RX/TX of a 4 digit character set, parses it, and uses the last 2 digits to display them.
+It takes in serial input from 0,1 - RX/TX of a 4 digit character set, parses it, and uses the last 2 digits to display them.
 */
 
 const int ledPins1[] ={A0, 12, A2, A4, 2, A5, A3};
