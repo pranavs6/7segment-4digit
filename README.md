@@ -21,11 +21,14 @@ Parts :
 
   5. Odds and ends such as a wooden board, wires, doodads.
 
-The input : 
-    -Initially, I hooked up the 0,1 - RX/TX lines of the Arduinos to a Raspberry Pi 3 to facilitate a serial connection through which, live time from the Pi is fed
+The input 
+  
+  1. Initially, I hooked up the 0,1 - RX/TX lines of the Arduinos to a Raspberry Pi 3 to facilitate a serial connection through which, live time from the Pi is fed
     to the boards whose digits correspond with those displayed.
-    -Now, I have a DS1370 RTC module that holds time by means of an all time running setup, I just need to setup the initial time value and feed it to the Arduinos.
-    -One snag I have, is that, the DS1307 module gives data in an I2C pinout, that needs pins A4, A5 - SDA/SCL pinouts, which I have hooked up at data lines for the
+    
+  2. Now, I have a DS1370 RTC module that holds time by means of an all time running setup, I just need to setup the initial time value and feed it to the Arduinos.
+    
+  3. One snag I have, is that, the DS1307 module gives data in an I2C pinout, that needs pins A4, A5 - SDA/SCL pinouts, which I have hooked up at data lines for the
     led units. Now, I am planning to use another spare Arduino to generate serial data and feed it to the two master Arduinos
 
     
