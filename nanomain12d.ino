@@ -1,3 +1,9 @@
+/*
+This is the script that is loaded on the 1st arduino that drives the first two digits and the blinker.
+It takes in seial input from 0,1 - RX/TX of a 4 digit character set, parses it, and uses the first 2 digits to display them.
+The blinker is a loop that blinks each second.
+*/
+
 const int ledPins1[] = {5, 6, 7, 8, 9, 10, 11};
 const int ledPins[] = {A0, A1, A2, A3, A4, A5, 13};
 const int bl = 12;
