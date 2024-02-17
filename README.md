@@ -1,7 +1,7 @@
 # 7segment-4digit
 Last updated : 02-17-2024
 
-This is a quick project of mine that I made with a couple of arduinos and some led strip pieces that act as each segment of the 4 digits.
+This is an intriguing project of mine - A 4 digit, 7 segment display, that I made with a couple of arduinos and some led strip pieces that act as each segment of the 4 digits.
 
 https://github.com/pranavs6/7segment-4digit/assets/119113218/29c62199-5684-4d6f-8925-c3e0b63dd284
 
