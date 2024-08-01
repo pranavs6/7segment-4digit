@@ -29,6 +29,7 @@ The input :
   2. Now, I have a DS1370 RTC module that holds time by means of an all time running setup, I just need to setup the initial time value and feed it to the Arduinos.
     
   3. One snag I have, is that, the DS1307 module gives data in an I2C pinout, that needs pins A4, A5 - SDA/SCL pinouts, which I have hooked up at data lines for the
-    led units. Now, I am planning to use another spare Arduino to generate serial data and feed it to the two master Arduinos
+    led units. Now, I am planning to use another spare Arduino to generate serial data and feed it to the two master Arduinos.
+    
 
     
